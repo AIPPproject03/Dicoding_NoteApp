@@ -1,1 +1,3 @@
 # Dicoding_NoteApp
+
+<h1>THIS IS PROJECT JAVASCRIPT FOR BEGINNERS</h1>
