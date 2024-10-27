@@ -1,0 +1,73 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.navbar {
+  background-color: #ffad60;
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  position: sticky; /* Make the navbar sticky */
+  top: 0; /* Stick the navbar to the top of the page */
+  z-index: 1000; /* Ensure the navbar stays above other content */
+}
+
+.navbar h1 {
+  color: white;
+  margin: 0;
+  font-size: 24px;
+  transition: color 0.3s;
+}
+
+.navbar h1:hover {
+  color: #ffcc00;
+}
+
+note-form {
+  margin: 20px 0;
+  max-width: 600px;
+  margin: 0 auto 40px auto;
+}
+
+.notes-box {
+  max-width: 800px;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgb(255, 252, 252);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s;
+}
+
+.notes-box:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+notes-container {
+  display: block;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+@media (max-width: 800px) {
+  .notes-box {
+    padding: 15px;
+    width: 80%;
+  }
+}
+
+@media (max-width: 600px) {
+  .notes-box {
+    padding: 10px;
+    width: 80%;
+  }
+}
